@@ -137,4 +137,5 @@ DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 DYNAMIC_DATATB = {
     # SLUG -> Import_PATH
     'questions': "polls.models.Question",
+    'choices': "polls.models.Choice"
 }
