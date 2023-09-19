@@ -1,5 +1,10 @@
+default: browse-ui run
+
 run: venv
 	. venv/bin/activate && python3 manage.py runserver
+
+browse-ui:
+	xdg-open http://127.0.0.1:8000/datatb/questions/
 
 venv: venv/touch
 
