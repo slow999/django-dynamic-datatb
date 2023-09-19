@@ -1,4 +1,4 @@
-default: browse-ui run
+default: run
 
 run: venv
 	. venv/bin/activate && python3 manage.py runserver
